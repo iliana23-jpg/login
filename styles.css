@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     display: flex;
@@ -7,6 +8,9 @@ body{
     height: 100vh;
     align-items: center;
     background: linear-gradient(to top right,#f5cc18, #b35ba0, #842cb8);
+
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 img{
@@ -19,4 +23,32 @@ img{
     padding: 2%;
     margin-top: 30px;
     border-radius: 15px;
+    box-shadow: 5px 5px 15px blue;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #ff4fbb;
+    color: white;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+
+    margin: auto;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #ff9eda;
 }
