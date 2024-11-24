@@ -1,0 +1,21 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to top right,#f5cc18, #b35ba0, #842cb8);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.login-container{
+    background-color: white;
+    padding: 2%;
+    margin-top: 30px;
+}
